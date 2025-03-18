@@ -5,7 +5,7 @@ const cookieParser = require('cookie-parser'); // Middleware for parsing cookies
 const cors = require('cors');             // Middleware for enabling Cross-Origin Resource Sharing (CORS)
 
 // Connecting to MongoDB database using Mongoose
-mongoose.connect('mongodb+srv://sunnyrajendraraj:Dehri@998@cluster0.uoqma.mongodb.net/')
+mongoose.connect('mongodb+srv://sunnyrajendraraj:Dehri%40998@cluster0.uoqma.mongodb.net/')
     .then(() => console.log('MongoDB Connected'))  // Logs success message if connection is successful
     .catch((error) => console.log(error));        // Logs error message if connection fails
 
